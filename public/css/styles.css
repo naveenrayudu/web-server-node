@@ -1,0 +1,61 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    color: #333333;
+    max-width: 65rem;
+    margin: 0 auto;
+    padding: 0 1.6rem;
+    font-size: 1.6rem;
+}
+
+header nav {
+    margin-top: 2rem;
+}
+
+nav a {
+    font-size: 2.4rem;
+    color: #888888;
+    margin-right: 15rem;
+}
+
+nav a:active {
+    background: rgb(28, 93, 119);
+}
+
+footer {
+    color: #888888;
+    border-top: 1px solid #eeeeee;
+}
+
+header {
+    margin-top: 1rem;
+    color: #888888;
+    border-bottom: 1px solid #eeeeee;
+    padding: 0.2rem;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header .title {
+    font-size: 10rem;
+    margin-bottom: 3rem;
+    color: black;
+}
+
+.main-content {
+    min-height: 45rem;
+}
+
+input[type='text'] {
+    padding: 5px 10px;
+    border: 1px solid darkgrey;
+}
+
+button {
+    padding: 5px;
+    cursor: pointer;
+}
