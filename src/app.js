@@ -4,6 +4,7 @@ const app = express();
 const hbs = require('hbs');
 const geoCode = require('./utils/geoCode');
 const weatherInfo = require('./utils/weatherInfo');
+const PORT = process.env.PORT || 3000;
 
 const publicPath = path.join(__dirname, '..', '/public');
 const templatePath = path.join(__dirname, '..', 'templates', 'views');
@@ -78,7 +79,7 @@ app.get('*', (req, res) => {
     })
 })
 
-app.listen(3000, () => {
+app.listen(PORT, () => {
     console.log('server started');
 })
 
